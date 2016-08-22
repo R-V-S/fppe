@@ -1,0 +1,28 @@
+{
+  "name": "frontend-pair-programming-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DailyFeats/frontend-pair-programming-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DailyFeats/frontend-pair-programming-exercise/issues"
+  },
+  "homepage": "https://github.com/DailyFeats/frontend-pair-programming-exercise",
+  "dependencies": {
+    "express": "4.14.0",
+    "lodash": "4.15.0",
+    "react": "15.3.1",
+    "react-dom": "15.3.1"
+  },
+  "devDependencies": {
+    "mocha": "3.0.2"
+  }
+}
