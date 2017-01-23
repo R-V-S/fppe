@@ -9,6 +9,8 @@
   },
   "homepage": "https://github.com/DailyFeats/frontend-pair-programming-exercise",
   "devDependencies": {
+    "chai": "3.5.0",
+    "chai-http": "3.0.0",
     "mocha": "3.0.2",
     "react-scripts": "0.8.5"
   },
@@ -22,6 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node server/server.js",
+    "test-server": "./node_modules/.bin/mocha  -- 'server/**/*.spec.js'"
   }
 }
