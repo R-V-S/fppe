@@ -1,8 +1,26 @@
 # Challenge
 
-I just moved into a sweet new apartment and there's a mount for a monitor in the bathroom attached to my bedroom. I'm thinking that it would be sweet if on the monitor I could get updates on what's going on in the world. What I'm picturing is that it will get news stories from various websites that I frequent and render them one at a time, wiping through each on a timer. I'd be the only user so you don't have to worry about permissions or accounts or things like that, but I imagine I'll change my mind about what sites I want to be pulling from over time so hopefully we build something that makes that relatively painless to do.
+I just moved into a new place and I have an extra monitor. I was thinking I could get updates on what's going on in the world. I'd be the only user so you don't have to worry about permissions or accounts or things like that, but I imagine I'll change my mind about what sites I want to be pulling from over time so hopefully we build something that makes that relatively painless to do.
 
-An example of an open news API (no key needed): [Reddit r/news](https://api.reddit.com/r/news/top)
+## Running the News server
+
+  ```
+  $ npm run server
+  ```
+  A successful start will print this in the console
+  ```
+  News Story API listening on port: 4444
+  ```
+
+## Changing the server?
+  ```
+  $ npm run test-server
+  ```
+
+## Access the server
+  ```
+  localhost:4444/api/news
+  ```
 
 # What we care about
 
@@ -35,3 +53,6 @@ Something that works can always be made faster, let's get something working firs
 ## Copy/pasting from documentation or other projects
 
 Please do! Effectively searching for examples of similar problems that have already been solved is certainly part of programming, so don't reinvent the wheel!
+
+
+
