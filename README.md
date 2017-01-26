@@ -15,7 +15,7 @@ I just moved into a new place and I have an extra monitor. I was thinking I coul
 
 ## Access the news api
   ```
-  localhost:4444/api/news
+  http://localhost:4444/api/news
   ```
 
 # What we care about
