@@ -1,21 +1,22 @@
 const express = require('express');
 const app = express();
 const data = require('./data.json');
-const cors = require('cors');
+const cors = require('express-cors');
 
 const PORT = 4444;
 
-const whitelist = ['http://localhost:3000'];
-const corsOptions = {
-  origin: (origin, callback) => {
-    const originIsWhitelisted = whitelist.indexOf(origin) !== -1
-    callback(originIsWhitelisted ? null : 'Bad Request', originIsWhitelisted);
-  },
-};
 
-app.get('/api/news', cors(corsOptions), (req, res) => {
+app.use(cors({
+  allowedOrigins: [
+    'localhost:3000'
+  ]
+}))
+
+app.get('/api/news', (req, res) => {
   res.send(data);
 });
+
+
 
 app.listen(PORT, () => {
   console.log('News Story API listening on port: ' + PORT);

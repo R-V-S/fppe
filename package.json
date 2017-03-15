@@ -15,8 +15,8 @@
     "react-scripts": "0.8.5"
   },
   "dependencies": {
-    "cors": "^2.8.1",
     "express": "4.14.0",
+    "express-cors": "0.0.3",
     "lodash": "4.15.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
