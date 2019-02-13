@@ -4,60 +4,110 @@
       "_id": "5c646650fa72f672b6af8cd9",
       "active": true,
       "group": "PT",
+      "age": 21,
+      "name": {
+        "first": "Garrison",
+        "last": "Lloyd"
+      },
       "products": ["5c6456e8d165a97cb029d653"]
     },
     {
       "_id": "5c64665054c94bb3a72893a5",
       "active": false,
       "group": "PT",
+      "age": 47,
+      "name": {
+        "first": "Margery",
+        "last": "Mayer"
+      },
       "products": ["5c6456e8d165a97cb029d653"]
     },
     {
       "_id": "5c64665066b61b64d45c893e",
       "active": true,
       "group": "PT",
+      "age": 51,
+      "name": {
+        "first": "Cheri",
+        "last": "Delgado"
+      },
       "products": []
     },
     {
       "_id": "5c64665031e26379518118e5",
       "active": true,
       "group": "FT",
+      "age": 34,
+      "name": {
+        "first": "Anil",
+        "last": "Joshi"
+      },
       "products": ["5c6456e8faa2599285b0c083", "5c6456e811e224a23b60df21", "5c6456e811e224a23b60df21"]
     },
     {
       "_id": "5c646650489a0a717f9dcaa3",
       "active": false,
       "group": "PT",
+      "age": 27,
+      "name": {
+        "first": "Jose",
+        "last": "Sanchez"
+      },
       "products": []
     },
     {
       "_id": "5c646650253272390e12ffe2",
       "active": false,
       "group": "C",
+      "age": 31,
+      "name": {
+        "first": "Jihye",
+        "last": "Choe "
+      },
       "products": []
     },
     {
       "_id": "5c646650c9208f5bfff1a380",
       "active": false,
       "group": "FT",
+      "age": 44,
+      "name": {
+        "first": "Miller",
+        "last": "Vance"
+      },
       "products": ["5c6456e8faa2599285b0c083", "5c6456e811e224a23b60df21"]
     },
     {
       "_id": "5c646650a7532b452c16bcde",
       "active": false,
       "group": "PT",
+      "age": 23,
+      "name": {
+        "first": "Dora",
+        "last": "Mendez"
+      },
       "products": []
     },
     {
       "_id": "5c646650ac3f290c7cb30aec",
       "active": false,
       "group": "FT",
+      "age": 54,
+      "name": {
+        "first": "Wilbur",
+        "last": "Wilhelm"
+      },
       "products": ["5c6456e8faa2599285b0c083"]
     },
     {
       "_id": "5c6466509e7b016dcd7aa75d",
       "active": false,
       "group": "C",
+      "age": 61,
+      "name": {
+        "first": "Sophia",
+        "last": "Shaw"
+      },
       "products": []
     }
   ],

@@ -1,21 +1,22 @@
 # Challenge
 
-I just moved into a new place and I have an extra monitor. I was thinking I could get updates on what's going on in the world. I'd be the only user so you don't have to worry about permissions or accounts or things like that, but I imagine I'll change my mind about what sites I want to be pulling from over time so hopefully we build something that makes that relatively painless to do.
+We have a server that returns users and products. We have the scaffolding for a front-end. Start by connecting the front-end to the back-end by fetching users and products from the backend and displaying them as simple lists in the front-end, and then we can discuss next steps.
 
 ## Getting started
-  No need to npm install we have already included the node_modules so all you have to do is run these steps:
-  1. Open up 2 terminal windows/tabs
+  1. ```npm install``` to install packages
   2. ```npm run server``` - this spins up the server where you can make the api call
   3. ```npm start``` - this starts up the frontend and opens a new tab in the browser
+  
+## Other helpful commands
 
-## Changing the server?
-  ```
-  $ npm run test-server
-  ```
+```npm test``` - Run all tests
+```npm run test-server``` - Run backend tests (using mocha)
+```npm run test-client``` - Run frontend tests
 
-## Access the news api
+## Access the api
   ```
-  http://localhost:4444/api/news
+  http://localhost:4444/api/users
+  http://localhost:4444/api/products
   ```
 
 # What we care about
