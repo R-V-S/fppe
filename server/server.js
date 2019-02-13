@@ -13,14 +13,18 @@ app.use(cors({
 }))
 
 app.get('/api/products', (req, res) => {
-  res.send(data);
+  res.send(data.products);
 });
 
-
+app.get('/api/users', (req, res) => {
+  res.send(data.users);
+});
 
 app.listen(PORT, () => {
-  console.log('Products API listening on port: ' + PORT);
-  console.log('API call: http://localhost:' + PORT + '/api/products');
+  console.log('Products API listening on port: ' + PORT)
+  console.log('API calls:')
+  console.log('http://localhost:' + PORT + '/api/products');
+  console.log('http://localhost:' + PORT + '/api/users');
 });
 
 module.exports = app;
