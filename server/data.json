@@ -1,21 +1,102 @@
 {
-  "data": {
-    "stories": [
-      {
-        "title": "Man claims wife was kidnapped by holograms",
-        "description": "Bespoke distillery vegan fixie, vaporware kale chips raw denim skateboard selfies green juice glossier 3 wolf moon pug brooklyn live-edge. Biodiesel seitan meh humblebrag raclette tattooed, viral kogi bitters. Trust fund affogato iPhone kickstarter pabst fingerstache, craft beer kale chips you probably haven't heard of them chicharrones fixie slow-carb. Flannel copper mug yr kitsch. Activated charcoal air plant af neutra. Seitan yuccie snackwave, poutine fashion axe man braid tumeric coloring book kinfolk wayfarers austin jianbing. Activated charcoal venmo disrupt ramps quinoa 8-bit.",
-        "date": "1485188072"
-      },
-      {
-        "title": "Man inches closer to one-way trip to Mars",
-        "description": "Pickled mlkshk plaid hoodie, synth wayfarers fingerstache mustache ennui tote bag austin forage kickstarter. Plaid brunch lyft freegan intelligentsia. Polaroid celiac biodiesel craft beer enamel pin, bespoke tbh paleo next level tilde microdosing raclette kitsch vice skateboard. Viral seitan yuccie, mumblecore mustache af subway tile vinyl taxidermy coloring book prism. Keytar trust fund leggings lomo normcore actually. Coloring book franzen single-origin coffee, ugh vaporware leggings master cleanse yr pug yuccie cornhole. Single-origin coffee tousled readymade before they sold out, woke whatever listicle truffaut microdosing stumptown iPhone cronut.",
-        "date": "1485061200"
-      },
-      {
-        "title": "Man attacks nephew over undercooked noodles",
-        "description": "YOLO kinfolk brooklyn chartreuse, cronut man braid raclette ugh health goth cardigan occupy helvetica. Semiotics godard selvage, air plant next level ethical ennui succulents. Hell of vexillologist lumbersexual small batch sartorial trust fund pickled mlkshk, pop-up kale chips banjo butcher. Vape glossier art party pug. Subway tile lomo gastropub tilde twee schlitz. Mixtape flexitarian roof party, semiotics occupy food truck deep v pickled copper mug tacos. Gochujang master cleanse sriracha, knausgaard heirloom leggings vinyl.",
-        "date": "1453525200"
-      }
-    ]
-  }
+  "users": [
+    {
+      "_id": "5c646650fa72f672b6af8cd9",
+      "active": true,
+      "group": "PT",
+      "products": ["5c6456e8d165a97cb029d653"]
+    },
+    {
+      "_id": "5c64665054c94bb3a72893a5",
+      "active": false,
+      "group": "PT",
+      "products": ["5c6456e8d165a97cb029d653"]
+    },
+    {
+      "_id": "5c64665066b61b64d45c893e",
+      "active": true,
+      "group": "PT",
+      "products": []
+    },
+    {
+      "_id": "5c64665031e26379518118e5",
+      "active": true,
+      "group": "FT",
+      "products": ["5c6456e8faa2599285b0c083", "5c6456e811e224a23b60df21", "5c6456e811e224a23b60df21"]
+    },
+    {
+      "_id": "5c646650489a0a717f9dcaa3",
+      "active": false,
+      "group": "PT",
+      "products": []
+    },
+    {
+      "_id": "5c646650253272390e12ffe2",
+      "active": false,
+      "group": "C",
+      "products": []
+    },
+    {
+      "_id": "5c646650c9208f5bfff1a380",
+      "active": false,
+      "group": "FT",
+      "products": ["5c6456e8faa2599285b0c083", "5c6456e811e224a23b60df21"]
+    },
+    {
+      "_id": "5c646650a7532b452c16bcde",
+      "active": false,
+      "group": "PT",
+      "products": []
+    },
+    {
+      "_id": "5c646650ac3f290c7cb30aec",
+      "active": false,
+      "group": "FT",
+      "products": ["5c6456e8faa2599285b0c083"]
+    },
+    {
+      "_id": "5c6466509e7b016dcd7aa75d",
+      "active": false,
+      "group": "C",
+      "products": []
+    }
+  ],
+  "products": [
+    {
+      "_id": "5c6456e8faa2599285b0c083",
+      "name": "McMedical 2019",
+      "type": "medical",
+      "subType": "hmo"
+    },
+    {
+      "_id": "5c6456e8778b83d000db024c",
+      "name": "Spectral Vision 2019",
+      "type": "vision",
+      "subType": null
+    },
+    {
+      "_id": "5c6456e83d83632a177a4423",
+      "name": "StarMeds 2019",
+      "type": "medical",
+      "subType": "ppo"
+    },
+    {
+      "_id": "5c6456e8d165a97cb029d653",
+      "name": "Mandibell Dental 2019",
+      "type": "dental",
+      "subType": "std"
+    },
+    {
+      "_id": "5c6456e811e224a23b60df21",
+      "name": "Banksy 401k 2019",
+      "type": "financial",
+      "subType": "401k"
+    },
+    {
+      "_id": "5c6456e811e224a23b60df21",
+      "name": "Jordan Floor Relief 2019",
+      "type": null,
+      "subType": "estate"
+    }
+  ]
 }

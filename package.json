@@ -1,25 +1,26 @@
 {
-  "name": "frontend-pair-programming-exercise",
+  "name": "fppe",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DailyFeats/frontend-pair-programming-exercise.git"
+    "url": "https://github.com/R-V-S/fppe.git"
   },
-  "homepage": "https://github.com/DailyFeats/frontend-pair-programming-exercise",
-  "devDependencies": {
-    "chai": "3.5.0",
-    "chai-http": "3.0.0",
-    "mocha": "3.0.2",
-    "react-scripts": "0.8.5"
-  },
+  "homepage": "https://github.com/R-V-S/fppe",
   "dependencies": {
-    "express": "4.14.0",
+    "axios": "^0.18.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "express": "^4.16.4",
     "express-cors": "0.0.3",
-    "lodash": "4.15.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "^0.8.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,6 +28,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "server": "node server/server.js",
-    "test-server": "./node_modules/.bin/mocha  -- 'server/**/*.spec.js'"
+    "test-server": "./node_modules/.bin/mocha  -- 'server/**/*.spec.js'",
+    "test-client": "./node_modules/.bin/mocha  -- 'src/**/*.spec.js'"
   }
 }

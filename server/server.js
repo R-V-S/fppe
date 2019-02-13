@@ -12,15 +12,15 @@ app.use(cors({
   ]
 }))
 
-app.get('/api/news', (req, res) => {
+app.get('/api/products', (req, res) => {
   res.send(data);
 });
 
 
 
 app.listen(PORT, () => {
-  console.log('News Story API listening on port: ' + PORT);
-  console.log('API call: http://localhost:' + PORT + '/api/news');
+  console.log('Products API listening on port: ' + PORT);
+  console.log('API call: http://localhost:' + PORT + '/api/products');
 });
 
 module.exports = app;
