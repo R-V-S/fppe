@@ -28,7 +28,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "server": "node server/server.js",
-    "test-server": "./node_modules/.bin/mocha  -- 'server/**/*.spec.js'",
-    "test-client": "./node_modules/.bin/mocha  -- 'src/**/*.spec.js'"
+    "test-server": "./node_modules/.bin/mocha  --exit -- 'server/**/*.spec.js'",
+    "test-client": "react-scripts test --env=jsdom src/**/*.test.js"
   }
 }
